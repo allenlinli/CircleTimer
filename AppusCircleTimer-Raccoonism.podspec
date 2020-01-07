@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   s.author           = { "Li Lin" => "allenlinli@gmail.com" }
   s.source           = { :git => "https://github.com/allenlinli/CircleTimer.git", :branch => "master", :tag => s.version.to_s }
   s.platform     = :ios, '11.0'
+  s.swift_version = '5.0'
   s.requires_arc = true
   s.source_files = 'CircleTimer/*.swift'
 end
