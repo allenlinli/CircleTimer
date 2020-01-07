@@ -1,0 +1,16 @@
+PODS:
+  - CircleTimer (0.2.2)
+
+DEPENDENCIES:
+  - CircleTimer (from `../`)
+
+EXTERNAL SOURCES:
+  CircleTimer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CircleTimer: 19d5318be04d73749d3ecb5292b1594f946ae2ad
+
+PODFILE CHECKSUM: c9567042eb15ef79b065e4418ef43c49dde2cac5
+
+COCOAPODS: 1.7.5
