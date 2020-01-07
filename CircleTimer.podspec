@@ -8,14 +8,14 @@
 
 Pod::Spec.new do |s|
   s.name             = "CircleTimer"
-  s.module_name      = "AppusCircleTimer"
-  s.version          = "0.2.2"
-  s.summary          = "'CircleCounter' is a simple in use animated countdown timer"
-  s.homepage         = "https://github.com/alexey-kubas-appus/CircleTimer"
+  s.module_name      = "AppusCircleTimer-Raccoonism"
+  s.version          = "0.3.0"
+  s.summary          = "Fork of Alexey Kubas's AppusCircleTimer"
+  s.homepage         = "https://github.com/allenlinli/CircleTimer"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { "Alexey Kubas" => "alexey.kubas@appus.me" }
-  s.source           = { :git => "https://github.com/alexey-kubas-appus/CircleTimer.git", :branch => "master", :tag => s.version.to_s }
-  s.platform     = :ios, '8.0'
+  s.author           = { "Li Lin" => "allenlinli@gmail.com" }
+  s.source           = { :git => "https://github.com/allenlinli/CircleTimer.git", :branch => "master", :tag => s.version.to_s }
+  s.platform     = :ios, '11.0'
   s.requires_arc = true
   s.source_files = 'CircleTimer/*.swift'
 end
